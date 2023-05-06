@@ -1,0 +1,75 @@
+a{
+ text-decoration: none;
+}
+*{
+ padding: 0px;
+ margin: 0px;
+}
+
+ul{
+ list-style-type: none;
+ display: flex;
+ justify-content: space-around;
+ height: 60px;
+ align-items: center;
+}
+nav{
+ background-color: yellow;
+}
+li{
+ text-transform: capitalize;
+ color: blue;
+ font-weight: bold;
+ font-size: 23px;
+}
+li:hover{
+ color: black;
+}
+.common{
+ background-color: transparent;
+ border: none;
+ cursor: pointer;
+}
+.common:hover{
+ color: red;
+}
+.divfirst{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ height: 100vh;
+ position: relative;
+ background-color: coral;  
+}  
+.firstdiv{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ height: 100vh;
+ background-color: coral;
+}
+#firstbtnone{
+ position: absolute;
+ top: 420px;
+ cursor: pointer;
+ padding: 8px;
+ border: 4px black;
+ outline: 4px black;
+ border-radius: 10px;
+ font-weight: bold;
+ font-size: 16px;
+}
+#firstbtntwo{
+ position: absolute;
+ top: 450px;
+ cursor: pointer;
+ padding: 8px;
+ border: 4px black;
+ outline: 4px black;
+ border-radius: 10px;
+ font-weight: bold;
+ font-size: 16px;
+}
+#firstbtn:hover{
+font-size: 20px;
+}
